@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversario!!!!!!</title>
+    <link rel="stylesheet" href="stilos/style.css">
+</head>
+<body>
+    <section>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/imagen1.jpeg" alt="">
+                <h2>Click para cerrar</h2>
+                <div class="content">
+                    <h3>Feliz dia!!!</h3>
+                    <p>Gracias por sus excelentes consejos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/imagen2.jpeg" alt="">
+                <h2>Click para cerrar</h2>
+                <div class="content">
+                    <h3>Los Quiero!!!</h3>
+                    <p>Gracias por siempre darnos lo mejor de ustedes</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/imagen3.jpeg" alt="">
+                <h2>Click para cerrar</h2>
+                <div class="content">
+                    <h3>Son lo Maximo!!!</h3>
+                    <p>Gracias por siempre estar para nosotros</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/imagen4.jpeg" alt="">
+                <h2>Click para cerrar</h2>
+                <div class="content">
+                    <h3>Son Unicos!!!</h3>
+                    <p>Gracias por siempre ver por nosotros</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/imagen5.jpeg" alt="">
+                <h2>Click de nuevo para cerrar</h2>
+                <div class="content">
+                    <h3>Los Amamos!!!</h3>
+                    <p>Copo, Junior, Safis, Naru, Chato, Salma, Dali y frida los Amamos y estamos muy agradecidos por todo lo que hacen por nosotros</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let imgBx = document.querySelectorAll('.imgBx');
+        imgBx.forEach(popup => popup.addEventListener('click', () => 
+        {
+            popup.classList.toggle('active')
+        }))
+    </script>
+</body>
+</html>
